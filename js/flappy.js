@@ -176,7 +176,15 @@ function hit(bird, pipes) {
 class GameOver {
     constructor(canvas) {
         this.element = newElement("div", "game-over");
-        this.element.innerHTML = "GAME OVER";
+
+        const gameOverInfo = newElement("h1");
+        gameOverInfo.innerHTML = "GAME OVER";
+
+        const restartInfo = newElement("h3");
+        restartInfo.innerHTML = "Press ENTER to play again";
+
+        this.element.appendChild(gameOverInfo);
+        this.element.appendChild(restartInfo);
         
         canvas.appendChild(this.element);
     }
