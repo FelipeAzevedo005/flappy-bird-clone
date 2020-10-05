@@ -22,7 +22,7 @@ $ git clone https://github.com/FelipeAzevedo005/flappy-bird-clone.git flappy-bir
 After that, enter in the flappy-bird-clone folder and right click on index.html, then choose to open with your preferred browser.
 
 ## :memo: License
-This project is under the MIT license. See the [LICENSE](https://github.com/FelipeAzevedo005/chat/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/FelipeAzevedo005/flappy-bird-clone/blob/master/LICENSE) for more information.
 
 ---
 
